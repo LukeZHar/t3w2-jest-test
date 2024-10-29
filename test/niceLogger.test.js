@@ -1,7 +1,9 @@
-test("niceLogger returns 'Nice logger'", () => {
+const { niceLogger } = require("../src/niceLogger.js");
+
+test("niceLogger returns Nice logger", () => {
     //  Test happens here
-    // expect(niceLogger()).toBe('Nice logger');
+    // expect(sth).toBe(sth);
 
     //  Lets make a test
-    expect(true).toBe(true);
+    expect(niceLogger()).toBe("Nice logger");
 })
