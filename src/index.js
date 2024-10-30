@@ -4,5 +4,5 @@
 // Import specific function from the file
 // const niceLoggerFunction = niceLoggerFile.niceLogger;
 
-const { niceLogger } = require("./niceLogger.js");
+const { niceLogger, messageRepeater } = require("./niceLogger.js");
 
