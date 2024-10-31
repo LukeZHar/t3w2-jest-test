@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "testWatch": "jest --watch",
     "start": "node src/index.js"
   },
   "keywords": [],
