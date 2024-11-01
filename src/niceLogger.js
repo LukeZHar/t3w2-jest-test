@@ -3,6 +3,10 @@ function niceLogger(){
     return 'Nice logger';
 }
 
+function sampleTest(){
+    return 'Sample test';
+}
+
 function messageRepeater(messageToRepeat){  
     // Message repeater functionality
     // stmts
