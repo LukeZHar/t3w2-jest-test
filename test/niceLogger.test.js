@@ -43,7 +43,7 @@ describe("messageRepeater function tests", () => {
     test("messageRepeater repeats numbers correctly", () => {
         let repeatedWord = messageRepeater(1); // "hello";
 
-        expect(repeatedWord).toBe("111");
+        expect(repeatedWord).toEqual("111");
         expect(repeatedWord).toHaveLength(3);
 
     });
