@@ -68,3 +68,25 @@ describe("messageRepeater function tests", () => {
     });
 
 });
+
+beforeEach(() => {
+    console.log("A test has started");
+})
+
+afterEach(() => {
+    console.log("A test has finished");
+})
+
+beforeAll(() => {
+    console.log("All tests have started");
+    // for APIs, the possible commands we can run are:
+    // get JWT from the API
+    // store JWT for all tests to use
+    // connection successful, make sure API is active and ready
+    // connection successful, make sure database is available and running
+})
+
+afterAll(() => {
+    console.log("All tests have finished");
+    // For APIs, delete all the resources that were created.
+})
